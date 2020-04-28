@@ -3,11 +3,11 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
-Title ""
-Date ""
-Rev ""
-Comp ""
+Sheet 8 9
+Title "Zero Volt Diode"
+Date "2020-04-28"
+Rev "2.0"
+Comp "Simplexion GmbH"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -84,10 +84,10 @@ A
 Text HLabel 2600 1200 2    50   UnSpc ~ 0
 K
 $Comp
-L power:GND #PWR03
+L power:GND #PWR031
 U 1 1 5E963060
 P 1500 2500
-F 0 "#PWR03" H 1500 2250 50  0001 C CNN
+F 0 "#PWR031" H 1500 2250 50  0001 C CNN
 F 1 "GND" H 1505 2327 50  0000 C CNN
 F 2 "" H 1500 2500 50  0001 C CNN
 F 3 "" H 1500 2500 50  0001 C CNN
@@ -95,10 +95,10 @@ F 3 "" H 1500 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR04
+L power:GND #PWR032
 U 1 1 5E9620D8
 P 2500 2500
-F 0 "#PWR04" H 2500 2250 50  0001 C CNN
+F 0 "#PWR032" H 2500 2250 50  0001 C CNN
 F 1 "GND" H 2505 2327 50  0000 C CNN
 F 2 "" H 2500 2500 50  0001 C CNN
 F 3 "" H 2500 2500 50  0001 C CNN
@@ -106,10 +106,10 @@ F 3 "" H 2500 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
+L Device:R R18
 U 1 1 5E963072
 P 1500 2250
-F 0 "R1" H 1570 2295 50  0000 L CNN
+F 0 "R18" H 1570 2295 50  0000 L CNN
 F 1 "10k" H 1570 2205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Icon" V 1430 2250 50  0001 C CNN
 F 3 "~" H 1500 2250 50  0001 C CNN
@@ -117,10 +117,10 @@ F 3 "~" H 1500 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R2
+L Device:R R19
 U 1 1 5EA18D3F
 P 2500 2250
-F 0 "R2" H 2430 2205 50  0000 R CNN
+F 0 "R19" H 2430 2205 50  0000 R CNN
 F 1 "47k" H 2430 2295 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Icon" V 2430 2250 50  0001 C CNN
 F 3 "~" H 2500 2250 50  0001 C CNN
