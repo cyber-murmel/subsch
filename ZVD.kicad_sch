@@ -4,8 +4,8 @@
 
   (title_block
     (title "Zero Volt Diode")
-    (date "2020-04-28")
-    (rev "2.0-rc2")
+    (date "2020-05-12")
+    (rev "2.0-rc3")
     (company "Simplexion GmbH")
   )
 
@@ -202,11 +202,11 @@
     )
   )
 
-  (junction (at 38.1 50.8))
-  (junction (at 38.1 30.48))
-  (junction (at 63.5 50.8))
   (junction (at 63.5 30.48))
   (junction (at 48.26 43.18))
+  (junction (at 38.1 30.48))
+  (junction (at 63.5 50.8))
+  (junction (at 38.1 50.8))
 
   (wire (pts (xy 35.56 30.48) (xy 38.1 30.48)))
   (wire (pts (xy 38.1 30.48) (xy 45.72 30.48)))
