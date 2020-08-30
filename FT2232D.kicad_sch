@@ -536,10 +536,10 @@
   (junction (at 88.9 154.94) (diameter 0) (color 0 0 0 0))
   (junction (at 91.44 55.88) (diameter 0) (color 0 0 0 0))
 
-  (no_connect (at 109.22 144.78))
-  (no_connect (at 63.5 129.54))
   (no_connect (at 63.5 134.62))
+  (no_connect (at 109.22 144.78))
   (no_connect (at 63.5 132.08))
+  (no_connect (at 63.5 129.54))
 
   (wire (pts (xy 40.64 45.72) (xy 53.34 45.72))
     (stroke (width 0) (type solid) (color 0 0 0 0))
